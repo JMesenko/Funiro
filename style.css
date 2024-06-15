@@ -1,0 +1,199 @@
+@import url("./common-style.css");
+
+.section-1 {
+    background: url(img/scandinavian-interior-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 712px;
+    position: relative;
+}
+    
+
+.button-buy {
+    width: 643px;
+    height: 443px;
+    position: absolute;
+    right: 58px;
+    border-radius: 10px;
+    background-color: #fff3e3;
+    font-family: var(--second-family);
+    padding-left: 30px;
+    padding-top: 20px;
+}
+
+.dicover-collection {
+    background-color: #B88E2F;
+    color: #B88E2F;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #B88E2F;
+    border: none;
+    color: white;
+    width: 140px;
+    height: 80px;
+    margin-top: 30px;
+}
+
+.text {
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.photo {
+    display: flex;
+    justify-content: space-around;
+    padding: 90px;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 32px;
+    color: #333333;
+}
+
+.text-Lorem {
+    color: #666;
+}
+
+.photo p {
+    color: #333;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+}
+
+.section-3 {
+    font-size: 40px;
+
+    color: #3a3a3a;
+    font-weight: 700;
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    color: #3a3a3a;
+    justify-content: center;
+}
+
+.p-16 {
+    padding: 16px;
+}
+
+.product p {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #898989;
+}
+
+.product {
+    background-color: #F4F5F7;
+
+}
+
+
+.button-show {
+    border-width: 1px;
+    color: #B88E2F;
+    border-color: #B88E2F;
+    background-color: white;
+    height: 58px;
+    width: 345px;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 32px 0;
+}
+
+
+
+
+.section-4 {
+    background: #fcf8f3;
+    width: 1440px;
+    height: 670px;
+}
+
+.button-more {
+    background-color: #B88E2F;
+    border: none;
+    color: white;
+    width: 120px;
+    height: 40px;
+}
+
+.section-4more {
+    text-align: left;
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.text4 {
+    padding-top: 190px;
+}
+
+.grid-container {
+    display: grid;
+    gap: 10px;
+    grid-template-areas:
+        "a b b b b c c c d d d e e e"
+        "a b b b b c c c d d d e e e"
+        "a b b b b c c c d d d e e e"
+        "f f g g g c c c d d d e e e"
+        "f f g g g c c c h h i i i i"
+        "f f g g g c c c h h i i i i";
+}
+
+.a {
+    grid-area: a;
+}
+
+.b {
+    grid-area: b;
+    align-self: self-end;
+}
+
+
+.c {
+    grid-area: c;
+    align-self: center;
+}
+
+.d {
+    grid-area: d;
+    align-self: self-end;
+}
+
+.e {
+    grid-area: e;
+    align-self: self-end;
+}
+
+.f {
+    grid-area: f;
+}
+
+.g {
+    grid-area: g;
+}
+
+.h {
+    grid-area: h;
+}
+
+.i {
+    grid-area: i;
+}
+

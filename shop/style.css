@@ -1,0 +1,180 @@
+@import url("../common-style.css");
+
+
+.section-1 {
+
+    position: relative;
+
+    height: 316px;
+    background-image: url(img/fon.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.text-section1 {
+    align-items: center;
+    text-align: center;
+    padding-top: 120px;
+
+}
+
+.options-container {
+    background: #f9f1e7;
+
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    padding: 22px 0;
+
+}
+
+.action {
+    display: flex;
+    align-items: center;
+}
+
+.action.filter img {
+    margin-right: 12px;
+}
+
+.choice {
+    display: flex;
+}
+
+.choice>* {
+    margin-right: 17px;
+}
+
+.list-options {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+
+}
+
+.search1,
+.search2 {
+    border: none;
+    appearance: none;
+    height: 55px;
+    padding-left: 10px;
+    color: #9F9F9F;
+}
+
+.search1 {
+    width: 55px;
+}
+
+.search2 {
+    width: 188px;
+}
+
+
+.section-2 {
+    margin-top: 40px;
+
+}
+
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 120%;
+    color: #3a3a3a;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.p-16 {
+    padding: 16px;
+}
+
+.product p {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #898989;
+}
+
+.product {
+    background-color: #F4F5F7;
+    color: #3a3a3a;
+    text-decoration: none;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 38px;
+}
+
+
+
+.button {
+    background-color: #F9F1E7;
+    border-radius: 10px;
+    height: 60px;
+    color: black;
+    border: none;
+    padding: 0 28px;
+    margin-top: 20px;
+}
+
+.active {
+    background-color: #b88e2f;
+    color: #FFFFFF;
+}
+
+.button:not(:last-child) {
+    margin-right: 38px;
+}
+
+.priorities {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    background-color: #FAF3EA;
+    padding: 50px 53px;
+    margin-top: 60px;
+
+}
+
+.priority {
+    margin-right: 5px;
+}
+
+.priority img {
+    width: auto;
+    height: 60px;
+}
+
+
+.text-priority p {
+    color: #898989;
+    margin: 0;
+}
+
+.text-priority h3 {
+    margin: 0;
+}
+
+.priority-block {
+    display: flex;
+    align-items: center;
+}
+
+.footer-menu li {
+    margin-bottom: 46px;
+    font-weight: 500;
+}
+.subscribe-form {
+    font-weight: 500;
+}
